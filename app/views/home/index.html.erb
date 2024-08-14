@@ -1,0 +1,6 @@
+<h1>Home#index</h1>
+
+<p>Users:</p>
+<%= form_with url: home_index_path, method: :get do |form| %>
+<%= form.select :user_id, User.pluck(:email, :id), {include_blank: true}, {data: { controller: 'slim', slim_target: 'field' } } %>
+<% end %>

@@ -6,3 +6,7 @@ In this app, I set up I18n internationalization for model content. I focused on 
 key = 'sr'
 MyModel.pluck(Arel.sql("translation->>'#{key}'"))
 ```
+make some products: 
+```
+Product.create!(name:"peach", translation:{en:"peach",sr:"breskva"})
+```

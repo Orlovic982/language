@@ -11,6 +11,17 @@
   </head>
 
   <body>
+    <div style="display: flex;flex-direction: column;">
+      <%= link_to 'sr', root_path %>
+      <%= link_to 'en', root_path %>
+    </div>
+
+    <div style="display: block;">
+      <%= link_to 'Home', root_path %>
+      <%= link_to 'About', home_about_path %>
+   
+    </div>
+
     <%= yield %>
   </body>
 </html>
