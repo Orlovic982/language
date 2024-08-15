@@ -29,3 +29,13 @@
 
 en:
   hello: "Hello world"
+  home: 
+    index: 
+      title: "Home"
+      subtitle: "Welcome to the home page of the application"
+    about:
+      title: "About"
+      subtitle: "Welcome to the about page of the application"
+    result: 
+      title: "Result"
+      subtitle: "Welcome to the result page of the application"

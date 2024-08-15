@@ -1,0 +1,12 @@
+sr:
+  hello: "Zdravo"
+  home: 
+    index:
+      title: "Početna"
+      subtitle: "Dobrodošli na početnu stranicu aplikacije"
+    about:
+      title: "O aplikaciji"
+      subtitle: "Dobrodošli na o stranicu aplikacije"
+    result:
+      title: "Rezultat"
+      subtitle: "Dobrodošli na rezultat stranicu aplikacije"

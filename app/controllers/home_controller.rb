@@ -6,5 +6,6 @@ class HomeController < ApplicationController
   end
 
   def result
+debugger
   end
 end
